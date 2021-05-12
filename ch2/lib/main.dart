@@ -1,7 +1,22 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(
+    ChangeNotifierProvider<Counter>(
+      child: MyApp(),
+      create: (_) => Counter(),
+    ),
+  );
+}
+
+class Counter with ChangeNotifier {
+  int _count = 0;
+
+  void increment() {
+    _count++;
+    notifyListeners();
+  }
 }
 
 class MyApp extends StatelessWidget {
@@ -12,33 +27,17 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(),
     );
   }
 }
 
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key? key, this.title}) : super(key: key);
-  final String? title;
-
-  @override
-  _MyHomePageState createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
-
+class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title!),
+        title: Text('Hello'),
       ),
       body: Center(
         child: Column(
@@ -47,18 +46,25 @@ class _MyHomePageState extends State<MyHomePage> {
             Text(
               'You have pushed the button this many times:',
             ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
-            ),
+            MyText(),
           ],
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
+        onPressed: () =>
+            context.read<Counter>().increment(),
         tooltip: 'Increment',
         child: Icon(Icons.add),
       ),
     );
   }
 }
+
+class MyText extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Text('${context.watch<Counter>()._count}',
+        style: Theme.of(context).textTheme.headline4);
+  }
+}
+
