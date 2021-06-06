@@ -1,4 +1,4 @@
-package com.example.ch2
+package com.example.ch1
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -7,15 +7,24 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1tZuieNgauBbEUbcT4BVffKUYPW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="1" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -28,6 +37,32 @@
       <option name="presentableId" value="Default" />
       <updated>1622989060596</updated>
     </task>
+    <task id="LOCAL-00001" summary="Update folder code for chapter 3">
+      <created>1622989371280</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622989371280</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update folder code for chapter 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update folder code for chapter 3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="243" y="26" key="CommitChangelistDialog2" timestamp="1622989370875">
+      <screen x="0" y="25" width="1440" height="821" />
+    </state>
+    <state x="243" y="26" key="CommitChangelistDialog2/0.25.1440.821@0.25.1440.821" timestamp="1622989370875" />
+    <state x="320" y="172" key="Vcs.Push.Dialog.v2" timestamp="1622989373741">
+      <screen x="0" y="25" width="1440" height="821" />
+    </state>
+    <state x="320" y="172" key="Vcs.Push.Dialog.v2/0.25.1440.821@0.25.1440.821" timestamp="1622989373741" />
+    <state x="421" y="190" width="597" height="490" key="find.popup" timestamp="1622989162361">
+      <screen x="0" y="25" width="1440" height="821" />
+    </state>
+    <state x="421" y="190" width="597" height="490" key="find.popup/0.25.1440.821@0.25.1440.821" timestamp="1622989162361" />
   </component>
 </project>
