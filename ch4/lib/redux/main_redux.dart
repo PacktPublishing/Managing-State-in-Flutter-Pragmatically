@@ -2,28 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:redux/redux.dart';
 
-enum Actions { Increment, Decrement }
-
-CounterState counterReducer(CounterState state, dynamic action) {
-  if (action == Actions.Increment) {
-    return CounterState(count: state.count + 1);
-  }
-
-  if (action == Actions.Decrement) {
-    return CounterState(count: state.count - 1);
-  }
-
-  return state;
-}
-
-class CounterState {
-  final int count;
-
-  CounterState({this.count = 0});
-}
-
-final store = Store<CounterState>(counterReducer, initialState: CounterState());
-
 void main() {
   runApp(
     StoreProvider<CounterState>(
@@ -87,3 +65,25 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
+class CounterState {
+  final int count;
+
+  CounterState({this.count = 0});
+}
+
+enum Actions { Increment, Decrement }
+
+CounterState counterReducer(CounterState state, dynamic action) {
+  if (action == Actions.Increment) {
+    return CounterState(count: state.count + 1);
+  }
+
+  if (action == Actions.Decrement) {
+    return CounterState(count: state.count - 1);
+  }
+
+  return state;
+}
+
+final store = Store<CounterState>(counterReducer, initialState: CounterState());
