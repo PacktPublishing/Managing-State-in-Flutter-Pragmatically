@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="2f00f08f-365f-4f39-b1dd-4893fe8585e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch3/lib/bloc/bloc_counter.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../ch3/lib/bloc/bloc_counter.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch3/lib/bloc/counter_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../ch3/lib/bloc/counter_bloc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch3/lib/bloc/main_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../ch3/lib/bloc/main_bloc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch4/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch4/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4/pubspec.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
