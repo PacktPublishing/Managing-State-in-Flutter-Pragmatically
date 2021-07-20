@@ -8,7 +8,6 @@ class CounterModel extends ChangeNotifier {
   int get counter => _counter;
 
   CounterModel() {
-    /// lets pretend we have to do some async initilization
     Future.delayed(Duration(milliseconds: 100)).then((_) => getIt.signalReady(this));
   }
 
