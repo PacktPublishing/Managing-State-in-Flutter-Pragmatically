@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f00f08f-365f-4f39-b1dd-4893fe8585e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ch6/lib/cart_inherited_model/cart.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch6/lib/cart_inherited_model/inherited_model_cart.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch6/lib/cart_inherited_model/main_inherited_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch6/lib/cart_inherited_widget/cart.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch6/lib/cart_inherited_widget/inherited_widget_cart.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch6/lib/cart_inherited_widget/main_inherited_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch6/lib/cart_setstate/cart.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch6/lib/item.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch3/lib/bloc/bloc_counter.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../ch3/lib/bloc/bloc_counter.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch3/lib/bloc/counter_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../ch3/lib/bloc/counter_bloc.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch3/lib/bloc/main_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../ch3/lib/bloc/main_bloc.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch4/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch4/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4/pubspec.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
