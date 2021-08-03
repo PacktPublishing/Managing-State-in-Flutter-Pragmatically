@@ -2,18 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="024f3893-55b5-493b-9694-c909432c2813" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bloc_counter_example/lib/counter_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bloc_counter_example/lib/counter_event.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bloc_counter_example/lib/counter_state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cubit_counter_example/lib/counter_cubit.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cubit_counter_example/lib/counter_state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cubit_counter_example/lib/cubit_counter.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider_counter_example/lib/provider_counter.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riverpod_counter_example/lib/custom_class/riverpod_counter_custom.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riverpod_counter_example/lib/simple/riverpod_counter_simple.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch2/.idea/ch2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch2/.idea/ch2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch2/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch2/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch2/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ch2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/version" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/version" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ch3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ch3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/bloc/bloc_counter.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bloc/bloc_counter.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bloc/counter_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bloc/counter_bloc.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/bloc/main_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bloc/main_bloc.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch4/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch4/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ch4/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -31,8 +54,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cubit_counter_example/lib" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cubit_counter_example/lib" />
+      <recent name="$PROJECT_DIR$/riverpod_counter_example/lib/custom_class" />
+      <recent name="$PROJECT_DIR$/riverpod_counter_example/lib/simple" />
+      <recent name="$PROJECT_DIR$/bloc_counter_example/lib" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />

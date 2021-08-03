@@ -6,9 +6,15 @@
       <excludeFolder url="file://$MODULE_DIR$/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/build" />
+      <excludeFolder url="file://$MODULE_DIR$/inherited_model_counter_example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/inherited_model_counter_example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/inherited_model_counter_example/build" />
       <excludeFolder url="file://$MODULE_DIR$/inherited_widget_counter_example/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/inherited_widget_counter_example/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/inherited_widget_counter_example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/set_state_counter_example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/set_state_counter_example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/set_state_counter_example/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

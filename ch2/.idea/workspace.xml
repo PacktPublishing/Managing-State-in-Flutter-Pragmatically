@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f00f08f-365f-4f39-b1dd-4893fe8585e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/inherited_model_counter_example/lib/inherited_model_counter.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inherited_widget_counter_example/lib/inherited_widget_counter.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/set_state_counter_example/lib/my_stateful_widget.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/set_state_counter_example/lib/page_two.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/version" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/version" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ch2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ch2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,18 +59,43 @@
       <option name="project" value="LOCAL" />
       <updated>1622989693488</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update project structure">
+      <created>1627980752329</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627980752329</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add README.md">
+      <created>1627980843965</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1627980843965</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update README.md">
+      <created>1627980865968</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1627980865968</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update code folder for chapter 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update code folder for chapter 2" />
+    <MESSAGE value="Update project structure" />
+    <MESSAGE value="Add README.md" />
+    <MESSAGE value="Update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="221" y="26" key="CommitChangelistDialog2" timestamp="1622989693229">
-      <screen x="0" y="25" width="1440" height="821" />
+    <state x="221" y="26" key="CommitChangelistDialog2" timestamp="1627980865851">
+      <screen x="0" y="25" width="1440" height="822" />
     </state>
     <state x="221" y="26" key="CommitChangelistDialog2/0.25.1440.821@0.25.1440.821" timestamp="1622989693229" />
+    <state x="221" y="26" key="CommitChangelistDialog2/0.25.1440.822/1440.25.1920.1055@0.25.1440.822" timestamp="1627980865851" />
     <state x="320" y="172" key="Vcs.Push.Dialog.v2" timestamp="1622989695717">
       <screen x="0" y="25" width="1440" height="821" />
     </state>
