@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="024f3893-55b5-493b-9694-c909432c2813" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bloc_counter_example/lib/counter_bloc.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bloc_counter_example/lib/counter_event.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bloc_counter_example/lib/counter_state.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cubit_counter_example/lib/counter_cubit.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cubit_counter_example/lib/counter_state.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cubit_counter_example/lib/cubit_counter.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider_counter_example/lib/provider_counter.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riverpod_counter_example/lib/custom_class/riverpod_counter_custom.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riverpod_counter_example/lib/simple/riverpod_counter_simple.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch2/.idea/ch2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch2/.idea/ch2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch2/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch2/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch2/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/version" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/version" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ch3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ch3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bloc/bloc_counter.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bloc/bloc_counter.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bloc/main_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bloc/main_bloc.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-    </list>
+    <list default="true" id="024f3893-55b5-493b-9694-c909432c2813" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,18 +59,27 @@
       <option name="project" value="LOCAL" />
       <updated>1622989371280</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update project structure">
+      <created>1627990408014</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627990408014</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update folder code for chapter 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update folder code for chapter 3" />
+    <MESSAGE value="Update project structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update project structure" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="243" y="26" key="CommitChangelistDialog2" timestamp="1622989370875">
-      <screen x="0" y="25" width="1440" height="821" />
+    <state x="243" y="26" key="CommitChangelistDialog2" timestamp="1627990407475">
+      <screen x="0" y="25" width="1440" height="822" />
     </state>
     <state x="243" y="26" key="CommitChangelistDialog2/0.25.1440.821@0.25.1440.821" timestamp="1622989370875" />
+    <state x="243" y="26" key="CommitChangelistDialog2/0.25.1440.822/1440.25.1920.1055@0.25.1440.822" timestamp="1627990407475" />
     <state x="320" y="172" key="Vcs.Push.Dialog.v2" timestamp="1622989373741">
       <screen x="0" y="25" width="1440" height="821" />
     </state>
