@@ -2,12 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f00f08f-365f-4f39-b1dd-4893fe8585e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/inherited_model_counter_example/lib/inherited_model_counter.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inherited_widget_counter_example/lib/inherited_widget_counter.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/set_state_counter_example/lib/my_stateful_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/set_state_counter_example/lib/page_two.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/version" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/version" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ch2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ch2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
