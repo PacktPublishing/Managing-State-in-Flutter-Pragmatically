@@ -10,7 +10,7 @@ class MyCartInheritedWidget extends StatefulWidget {
   static MyCartInheritedWidgetState of(BuildContext context) {
     final MyCartInheritedWidgetState? result = context.dependOnInheritedWidgetOfExactType<MyInheritedWidget>()!.data;
 
-    assert(result != null, 'No counter found in context');
+    assert(result != null, 'No cart found in context');
     return result!;
   }
 
