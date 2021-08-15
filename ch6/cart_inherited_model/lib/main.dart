@@ -41,8 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: ListView(
-        children: MyCartInheritedModelWidget.of(context)
-            .items
+        children: items
             .map(
               (e) => ListTile(
                 title: Text(e.name ?? ''),
@@ -62,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
             )
             .toList(),
       ),
-      floatingActionButton: items.isEmpty
+      floatingActionButton: cart.isEmpty
           ? null
           : FloatingActionButton.extended(
               onPressed: () {

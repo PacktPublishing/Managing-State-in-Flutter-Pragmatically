@@ -61,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
             )
             .toList(),
       ),
-      floatingActionButton: items.isEmpty
+      floatingActionButton: cart.isEmpty
           ? null
           : FloatingActionButton.extended(
               onPressed: () {
