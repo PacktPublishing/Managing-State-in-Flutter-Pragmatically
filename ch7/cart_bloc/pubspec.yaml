@@ -1,4 +1,4 @@
-name: cart_riverpod
+name: cart_bloc
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -23,8 +23,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_riverpod: ^0.14.0+3
   equatable: ^2.0.3
+  flutter_bloc: ^7.0.0
 
 
   # The following adds the Cupertino Icons font to your application.

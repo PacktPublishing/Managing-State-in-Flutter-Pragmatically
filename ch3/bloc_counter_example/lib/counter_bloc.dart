@@ -13,7 +13,7 @@ class CounterBloc extends Bloc {
   @override
   Stream mapEventToState(event) async* {
     if(event is IncrementCounterEvent) {
-      yield CounterState(count: countValue++);
+      yield CounterState(count: ++countValue);
     }
     if(event is AddToCounterEvent) {
       yield CounterState(count: countValue += event.number);
