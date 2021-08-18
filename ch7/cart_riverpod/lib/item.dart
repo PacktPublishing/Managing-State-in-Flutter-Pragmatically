@@ -7,7 +7,6 @@ class Item extends Equatable {
   Item({this.name, this.price});
 
   @override
-  // TODO: implement props
   List<Object?> get props => [name, price];
 }
 

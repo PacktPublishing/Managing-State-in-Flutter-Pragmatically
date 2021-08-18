@@ -6,8 +6,6 @@ final cartProvider = StateNotifierProvider((ref) => CartNotifier());
 class CartNotifier extends StateNotifier<CartModel> {
   CartNotifier() : super(CartModel(cart: []));
 
-//  void increment() => state = CartModel(count: state.count + 1);
-
   void addToCart(Item item) {
     var updatedCart = state.cart;
     updatedCart.add(item);
@@ -19,8 +17,6 @@ class CartNotifier extends StateNotifier<CartModel> {
     updatedCart.remove(item);
     state = CartModel(cart: updatedCart);
   }
-
-//  void removeFromCart(Item item) => state.cart.remove(item);
 }
 
 class CartModel {
