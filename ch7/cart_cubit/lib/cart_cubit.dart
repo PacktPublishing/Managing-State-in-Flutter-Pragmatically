@@ -11,8 +11,6 @@ class CartCubit extends Cubit<CartState> {
   List<Item> items = populateItems();
   List<Item> cart = [];
 
-  int countValue = 0;
-
   addItemToCart(Item item) async {
     emit(CartUpdatingState());
     cart.add(item);
