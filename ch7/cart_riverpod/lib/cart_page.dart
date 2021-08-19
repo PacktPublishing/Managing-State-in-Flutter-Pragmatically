@@ -14,7 +14,6 @@ class _CartPageState extends State<CartPage> {
   Widget build(BuildContext context) {
     return Consumer(builder: (context, watch, _) {
       final state = watch(cartProvider) as CartModel;
-      var items = state.items;
       var cart = state.cart;
       return Scaffold(
         appBar: AppBar(
