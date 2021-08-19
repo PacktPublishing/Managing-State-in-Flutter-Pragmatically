@@ -7,10 +7,12 @@ import 'cart_state.dart';
 import 'item.dart';
 
 void main() {
-  runApp(StoreProvider(
-    child: MyApp(),
-    store: store,
-  ));
+  runApp(
+    StoreProvider(
+      child: MyApp(),
+      store: store,
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
