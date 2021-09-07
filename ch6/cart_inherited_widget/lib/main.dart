@@ -12,7 +12,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MyCartInheritedWidget(
       child: MaterialApp(
-        debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(
           primarySwatch: Colors.blue,
@@ -41,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: ListView(
-        children: items
+        children: items // using items from within build method
             .map(
               (e) => ListTile(
                 title: Text(e.name ?? ''),
@@ -51,10 +50,14 @@ class _MyHomePageState extends State<MyHomePage> {
                     cart.contains(e) ? Icons.remove_circle : Icons.add_circle,
                   ),
                   onPressed: () {
+                    // using cart variable to add/remove item
                     if (!cart.contains(e))
+                      // replace existing code
                       MyCartInheritedWidget.of(context).addToCart(e);
                     else
+                      // replace existing code
                       MyCartInheritedWidget.of(context).removeFromCart(e);
+                    setState(() {});
                   },
                 ),
               ),
@@ -67,6 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: () {
                 Navigator.of(context).push(
                   MaterialPageRoute(
+                    // updated code
                     builder: (context) => CartPage(),
                   ),
                 );
@@ -79,6 +83,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       shape: BoxShape.circle,
                       color: Colors.red,
                     ),
+                    // using cart to show the number of items
                     child: Text(cart.length.toString()),
                   ),
                   SizedBox(width: 8),
