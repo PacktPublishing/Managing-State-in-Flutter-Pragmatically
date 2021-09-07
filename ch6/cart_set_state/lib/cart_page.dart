@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../item.dart';
+import 'item.dart';
 
 class CartPage extends StatefulWidget {
   final List<Item> cart;
