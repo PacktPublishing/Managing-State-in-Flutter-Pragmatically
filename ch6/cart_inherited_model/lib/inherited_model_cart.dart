@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../item.dart';
+import 'item.dart';
 
 class MyCartInheritedModelWidget extends StatefulWidget {
   final Widget child;

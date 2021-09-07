@@ -52,9 +52,12 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   onPressed: () {
                     if (!cart.contains(e))
+                      // replace existing code
                       InheritedModel.inheritFrom<MyInheritedWidget>(context, aspect: 1)!.data.addToCart(e);
                     else
+                      // replace existing code
                       InheritedModel.inheritFrom<MyInheritedWidget>(context, aspect: 1)!.data.removeFromCart(e);
+                    setState(() {});
                   },
                 ),
               ),
