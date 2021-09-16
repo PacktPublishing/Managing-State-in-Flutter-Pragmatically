@@ -35,7 +35,6 @@ class _CartPageState extends State<CartPage> {
               .toList(),
         ),
       );
-      return Container();
     });
   }
 }
