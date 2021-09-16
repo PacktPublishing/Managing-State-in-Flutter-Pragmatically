@@ -1,4 +1,4 @@
-import 'package:cart_riverpod/item.dart';
+import 'item.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 final cartProvider = StateNotifierProvider((ref) => CartNotifier());

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'item.dart';
 
+// One
 class MyCartInheritedWidget extends StatefulWidget {
   final Widget child;
 
@@ -46,6 +47,7 @@ class MyCartInheritedWidgetState extends State<MyCartInheritedWidget> {
   }
 }
 
+// Two
 class MyInheritedWidget extends InheritedWidget {
   final MyCartInheritedWidgetState data;
 
