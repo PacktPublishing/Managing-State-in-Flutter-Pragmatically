@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'Cart - GetIt'), // Updated code
     );
   }
 }
@@ -48,8 +48,11 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
+    // One
     var model = getIt<CartModel>();
     var cart = model.cart;
+
+    // Two
     return FutureBuilder(
       future: getIt.allReady(),
       builder: (context, snapshot) {
@@ -58,6 +61,8 @@ class _MyHomePageState extends State<MyHomePage> {
             appBar: AppBar(
               title: Text(widget.title),
             ),
+
+            // Three
             body: ListView(
               children: getIt<CartModel>()
                   .items
@@ -70,6 +75,8 @@ class _MyHomePageState extends State<MyHomePage> {
                           cart.contains(e) ? Icons.remove_circle : Icons.add_circle,
                         ),
                         onPressed: () {
+
+                          // Four
                           if (!cart.contains(e))
                             model.addItemToCart(e);
                           else
@@ -106,6 +113,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                   ),
           );
+
+        // Five
         return Column(
           mainAxisAlignment: MainAxisAlignment.center,
           mainAxisSize: MainAxisSize.min,

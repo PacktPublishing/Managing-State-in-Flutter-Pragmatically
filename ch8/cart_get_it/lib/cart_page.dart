@@ -11,6 +11,8 @@ class CartPage extends StatefulWidget {
 }
 
 class _CartPageState extends State<CartPage> {
+
+  // One
   @override
   void initState() {
     getIt.isReady<CartModel>().then((_) => getIt<CartModel>().addListener(update));
@@ -24,6 +26,8 @@ class _CartPageState extends State<CartPage> {
 
   @override
   Widget build(BuildContext context) {
+
+    // Two
     var model = getIt<CartModel>();
     var cart = model.cart;
     return Scaffold(
@@ -38,6 +42,8 @@ class _CartPageState extends State<CartPage> {
                 subtitle: Text("USD " + (e.price ?? '')),
                 trailing: IconButton(
                   icon: Icon(Icons.remove_circle),
+
+                  // Three
                   onPressed: () {
                     model.removeItemFromCart(e);
                   },

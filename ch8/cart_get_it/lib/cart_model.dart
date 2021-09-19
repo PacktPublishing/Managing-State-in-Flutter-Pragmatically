@@ -3,12 +3,15 @@ import 'package:flutter/material.dart';
 import 'item.dart';
 import 'main.dart';
 
+// One
 class CartModel extends ChangeNotifier {
 
+  // Two
   List<Item> items = populateItems();
 
   List<Item> cart = [];
 
+  // Three
   void addItemToCart(Item item) {
     var newCart = <Item>[];
     newCart.addAll(cart);
@@ -25,6 +28,7 @@ class CartModel extends ChangeNotifier {
     notifyListeners();
   }
 
+  // Four
   CartModel() {
     Future.delayed(Duration(milliseconds: 100)).then((_) => getIt.signalReady(this));
   }
