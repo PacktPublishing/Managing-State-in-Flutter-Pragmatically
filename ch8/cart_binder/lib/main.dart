@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return BinderScope(
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(
           primarySwatch: Colors.blue,
@@ -35,12 +36,16 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
+
+    // One
     final myCartRef = context.watch(cartRef);
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
       ),
       body: ListView(
+
+        // Two
         children: items
             .map(
               (e) => ListTile(
@@ -51,6 +56,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     myCartRef.cart.contains(e) ? Icons.remove_circle : Icons.add_circle,
                   ),
                   onPressed: () {
+
+                    // Three
                     if (!myCartRef.cart.contains(e)) {
                       context.use(cartViewLogicRef).addToCart(e);
                     } else {
@@ -62,6 +69,8 @@ class _MyHomePageState extends State<MyHomePage> {
             )
             .toList(),
       ),
+
+      // Four
       floatingActionButton: myCartRef.cart.isEmpty
           ? null
           : FloatingActionButton.extended(

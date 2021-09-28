@@ -12,6 +12,8 @@ class CartPage extends StatefulWidget {
 class _CartPageState extends State<CartPage> {
   @override
   Widget build(BuildContext context) {
+
+    // One
     final cart = context.watch(cartRef).cart;
     return Scaffold(
       appBar: AppBar(
@@ -25,6 +27,8 @@ class _CartPageState extends State<CartPage> {
             subtitle: Text("USD " + (e.price ?? '')),
             trailing: IconButton(
               icon: const Icon(Icons.remove_circle),
+
+              // Two
               onPressed: () {
                 context.use(cartViewLogicRef).removeFromCart(e);
               },
